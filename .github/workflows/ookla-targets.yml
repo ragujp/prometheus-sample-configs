@@ -1,0 +1,126 @@
+name: Build Ookla ICMP SD
+
+on:
+  schedule:
+    - cron: "27 0 * * *"   # 毎日（JST 09:27 / UTC 00:27）
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Generate JSON (Ookla ICMP targets)
+        run: python scripts/generate_ookla_targets.py
+
+      # --- 差分（URL 基準：ICMPファイル内の labels.url を集合として比較） ---
+      - name: Build diff (URL add/delete from ICMP files)
+        id: diff
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          FILES_ICMP=("out/ookla_icmp_targets_ipv4.json" "out/ookla_icmp_targets_ipv6.json")
+
+          # 旧URL集合（HEAD 側）
+          tmp_old="$(mktemp)"
+          : > "$tmp_old"
+          for f in "${FILES_ICMP[@]}"; do
+            if git cat-file -e "HEAD:$f" 2>/dev/null; then
+              git show "HEAD:$f" \
+                | jq -r '.[] | .labels.url // empty' \
+                || true
+            fi
+          done | sort -u > "$tmp_old"
+
+          # 新URL集合（作業ツリー側）
+          tmp_new="$(mktemp)"
+          : > "$tmp_new"
+          for f in "${FILES_ICMP[@]}"; do
+            if [[ -f "$f" ]]; then
+              jq -r '.[] | .labels.url // empty' "$f" || true
+            fi
+          done | sort -u > "$tmp_new"
+
+          # 差分
+          tmp_add="$(mktemp)"
+          tmp_del="$(mktemp)"
+          comm -13 "$tmp_old" "$tmp_new" > "$tmp_add"   # add: oldに無く newにある
+          comm -23 "$tmp_old" "$tmp_new" > "$tmp_del"   # delete: oldに有り newに無い
+
+          add_count=$(wc -l < "$tmp_add" | tr -d ' ')
+          del_count=$(wc -l < "$tmp_del" | tr -d ' ')
+          changed="false"; [[ "$add_count" != "0" || "$del_count" != "0" ]] && changed="true"
+
+          {
+            echo "any_change=${changed}"
+            echo "message<<__EOM__"
+            echo ":satellite: **Ookla ICMP Targets Update**"
+            echo ""
+            echo "**add (${add_count})**"
+            if [[ "$add_count" != "0" ]]; then
+              sed 's/^/- /' "$tmp_add"
+            else
+              echo "- (none)"
+            fi
+            echo ""
+            echo "**delete (${del_count})**"
+            if [[ "$del_count" != "0" ]]; then
+              sed 's/^/- /' "$tmp_del"
+            else
+              echo "- (none)"
+            fi
+            echo ""
+            echo "Run: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+            echo "__EOM__"
+          } >> "$GITHUB_OUTPUT"
+
+      # --- 差分がある時だけ Discord に通知（Actions の Step を使用） ---
+      - name: Send Discord notification
+        if: steps.diff.outputs.any_change == 'true'
+        uses: stegzilla/discord-notify@v2
+        with:
+          webhook_url: ${{ secrets.DISCORD_WEBHOOK_URL_OOKLA }}
+          title: "Ookla server list diff"
+          message: "${{ steps.diff.outputs.message }}"
+          include_image: false
+          username: "Prometheus SD Notifier"
+
+      # --- 生成物をコミット（Pages はリポジトリ内容を公開） ---
+      - name: Commit updated targets
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add out/*.json
+          git diff --cached --quiet || git commit -m "chore(ookla): update ICMP targets"
+          git push
+
+      # --- GitHub Pages artifact をアップロード（AWSの書き方に準拠） ---
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .  # リポジトリ直下（aws-targets.json などがあればそれも同時に公開）
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
