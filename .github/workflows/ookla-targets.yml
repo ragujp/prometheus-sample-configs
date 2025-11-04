@@ -24,7 +24,9 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Generate JSON (Ookla ICMP targets)
-        run: python scripts/generate_ookla_targets.py
+        run: |
+          mkdir -p out/ookla
+          python scripts/generate_ookla_targets.py
 
       # --- 差分（URL 基準：ICMPファイル内の labels.url を集合として比較） ---
       - name: Build diff (URL add/delete from ICMP files)
@@ -33,7 +35,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          FILES_ICMP=("out/ookla_icmp_targets_ipv4.json" "out/ookla_icmp_targets_ipv6.json")
+          FILES_ICMP=("out/ookla/ookla_icmp_targets_ipv4.json" "out/ookla/ookla_icmp_targets_ipv6.json")
 
           # 旧URL集合（HEAD 側）
           tmp_old="$(mktemp)"
@@ -93,26 +95,26 @@ jobs:
         if: steps.diff.outputs.any_change == 'true'
         uses: stegzilla/discord-notify@v2
         with:
-          webhook_url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          webhook_url: ${{ secrets.DISCORD_WEBHOOK }}   # ← お使いの Secret 名に合わせています
           title: "Ookla server list diff"
           message: "${{ steps.diff.outputs.message }}"
           include_image: false
           username: "Prometheus SD Notifier"
 
-      # --- 生成物をコミット（Pages はリポジトリ内容を公開） ---
+      # --- 生成物をコミット（out/ookla のみ追加） ---
       - name: Commit updated targets
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add out/*.json
+          git add out/ookla/*.json
           git diff --cached --quiet || git commit -m "chore(ookla): update ICMP targets"
           git push
 
-      # --- GitHub Pages artifact をアップロード（AWSの書き方に準拠） ---
+      # --- GitHub Pages artifact をアップロード（out/ のみ） ---
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .  # リポジトリ直下（aws-targets.json などがあればそれも同時に公開）
+          path: out  # ← out/aws と out/ookla の共存を担保
 
   deploy:
     needs: build
