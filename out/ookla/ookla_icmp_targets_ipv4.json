@@ -1,0 +1,226 @@
+[
+  {
+    "targets": [
+      "103.95.184.74"
+    ],
+    "labels": {
+      "ookla_id": "14623",
+      "city": "Bunkyo",
+      "sponsor": "IPA CyberLab",
+      "cc": "JP",
+      "fqdn": "speed.coe.ad.jp.prod.hosts.ooklaserver.net",
+      "url": "http://speed.coe.ad.jp:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
+      "114.16.207.6"
+    ],
+    "labels": {
+      "ookla_id": "65197",
+      "city": "Chiba",
+      "sponsor": "Kairun Services",
+      "cc": "JP",
+      "fqdn": "speedtest.kairun.jp.prod.hosts.ooklaserver.net",
+      "url": "http://speedtest.kairun.jp:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
+      "27.0.31.50"
+    ],
+    "labels": {
+      "ookla_id": "6405",
+      "city": "Misawa",
+      "sponsor": "Allied Telesis Capital Corporation",
+      "cc": "JP",
+      "fqdn": "sp3.atcc-gns.net.prod.hosts.ooklaserver.net",
+      "url": "http://sp3.atcc-gns.net:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
+      "103.13.250.27"
+    ],
+    "labels": {
+      "ookla_id": "21118",
+      "city": "Naha",
+      "sponsor": "GLBB Japan",
+      "cc": "JP",
+      "fqdn": "speedtest-xg-oki.glbb.ne.jp.prod.hosts.ooklaserver.net",
+      "url": "http://speedtest-xg-oki.glbb.ne.jp:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
+      "27.0.31.66"
+    ],
+    "labels": {
+      "ookla_id": "31181",
+      "city": "Okinawa",
+      "sponsor": "Allied Telesis Capital Corp.",
+      "cc": "JP",
+      "fqdn": "sp7.atcc-gns.net.prod.hosts.ooklaserver.net",
+      "url": "http://sp7.atcc-gns.net:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
+      "133.106.11.186"
+    ],
+    "labels": {
+      "ookla_id": "64352",
+      "city": "Sanda",
+      "sponsor": "Rakuten Mobile, Inc",
+      "cc": "JP",
+      "fqdn": "ookla2.mbspeed.net.prod.hosts.ooklaserver.net",
+      "url": "http://ookla2.mbspeed.net:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
+      "109.123.228.91"
+    ],
+    "labels": {
+      "ookla_id": "56935",
+      "city": "Tokyo",
+      "sponsor": "Contabo",
+      "cc": "JP",
+      "fqdn": "tyo.speedtest.contabo.net",
+      "url": "http://tyo.speedtest.contabo.net:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
+      "203.10.99.1"
+    ],
+    "labels": {
+      "ookla_id": "50686",
+      "city": "Tokyo",
+      "sponsor": "GSL Networks",
+      "cc": "JP",
+      "fqdn": "ty8.speedtest.gslnetworks.com.prod.hosts.ooklaserver.net",
+      "url": "http://ty8.speedtest.gslnetworks.com:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
+      "219.100.92.232"
+    ],
+    "labels": {
+      "ookla_id": "48463",
+      "city": "Tokyo",
+      "sponsor": "IPA CyberLab 400G",
+      "cc": "JP",
+      "fqdn": "speed.udx.icscoe.jp",
+      "url": "http://speed.udx.icscoe.jp:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
+      "209.146.123.56"
+    ],
+    "labels": {
+      "ookla_id": "69575",
+      "city": "Tokyo",
+      "sponsor": "Nearoute Limited",
+      "cc": "JP",
+      "fqdn": "ty-bgp-speedtest.nearoute.io.prod.hosts.ooklaserver.net",
+      "url": "http://ty-bgp-speedtest.nearoute.io:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
+      "103.124.1.250"
+    ],
+    "labels": {
+      "ookla_id": "24333",
+      "city": "Tokyo",
+      "sponsor": "Rakuten Mobile, Inc",
+      "cc": "JP",
+      "fqdn": "ookla.mbspeed.net",
+      "url": "http://ookla.mbspeed.net:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
+      "46.250.248.56"
+    ],
+    "labels": {
+      "ookla_id": "69792",
+      "city": "Tokyo",
+      "sponsor": "SpaceCore.pro | Premium VPS Hosting",
+      "cc": "JP",
+      "fqdn": "tyo.st.spacecore.pro.prod.hosts.ooklaserver.net",
+      "url": "http://tyo.st.spacecore.pro:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
+      "210.81.6.58"
+    ],
+    "labels": {
+      "ookla_id": "50467",
+      "city": "Tokyo",
+      "sponsor": "Verizon",
+      "cc": "JP",
+      "fqdn": "jp-nperf.verizon.net.prod.hosts.ooklaserver.net",
+      "url": "http://jp-nperf.verizon.net:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
+      "50.7.159.210"
+    ],
+    "labels": {
+      "ookla_id": "28910",
+      "city": "Tokyo",
+      "sponsor": "fdcservers.net",
+      "cc": "JP",
+      "fqdn": "speedtest.hnd.fdcservers.net",
+      "url": "http://speedtest.hnd.fdcservers.net:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
+      "50.7.158.179"
+    ],
+    "labels": {
+      "ookla_id": "60324",
+      "city": "Tokyo",
+      "sponsor": "サーバーならDDPS.jp",
+      "cc": "JP",
+      "fqdn": "speedtest.ddps.jp.prod.hosts.ooklaserver.net",
+      "url": "http://speedtest.ddps.jp:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
+      "103.41.63.43"
+    ],
+    "labels": {
+      "ookla_id": "7139",
+      "city": "Tsukuba",
+      "sponsor": "SoftEther Corporation",
+      "cc": "JP",
+      "fqdn": "speedtest.softether.co.jp.prod.hosts.ooklaserver.net",
+      "url": "http://speedtest.softether.co.jp:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  }
+]
