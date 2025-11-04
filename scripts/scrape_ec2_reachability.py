@@ -4,8 +4,8 @@
 EC2 Reachability (IPv4 / IPv6) の表を公式サイトからスクレイピングして
 Prometheus HTTP SD 形式の JSON を出力します。
 
-出力: aws-targets.json（IPv4/IPv6統合）
-オプション出力: aws-targets-ipv4.json, aws-targets-ipv6.json
+出力: out/aws/aws-targets.json（IPv4/IPv6統合）
+オプション出力: out/aws/aws-targets-ipv4.json, out/aws/aws-targets-ipv6.json
 """
 
 import json
@@ -22,9 +22,12 @@ IPv6_URL = "http://ipv6.ec2-reachability.amazonaws.com/"
 UA = "Mozilla/5.0 (+Prometheus-HTTP-SD-AWS-Reachability; contact=ops@example.com)"
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-OUT_ALL  = ROOT / "aws-targets.json"
-OUT_V4   = ROOT / "aws-targets-ipv4.json"
-OUT_V6   = ROOT / "aws-targets-ipv6.json"
+OUT_DIR = ROOT / "out" / "aws"
+OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+OUT_ALL = OUT_DIR / "aws-targets.json"
+OUT_V4  = OUT_DIR / "aws-targets-ipv4.json"
+OUT_V6  = OUT_DIR / "aws-targets-ipv6.json"
 
 
 def fetch(url: str, retries: int = 3, timeout: int = 20) -> str:
@@ -33,7 +36,6 @@ def fetch(url: str, retries: int = 3, timeout: int = 20) -> str:
         try:
             r = requests.get(url, headers={"User-Agent": UA}, timeout=timeout)
             r.raise_for_status()
-            # AWS 側は text/html; charset=utf-8 想定
             r.encoding = r.apparent_encoding or "utf-8"
             return r.text
         except Exception as e:
@@ -47,10 +49,6 @@ def clean_text(s: str) -> str:
 
 
 def split_city_country(head: str) -> Tuple[str, str]:
-    """
-    見出しが「Lagos, Nigeria」形式のとき、city/country を分離。
-    それ以外（"Tokyo" や "US East (N. Virginia)" 等）は city のみに入れる。
-    """
     txt = clean_text(head)
     if "," in txt:
         a, b = [t.strip() for t in txt.split(",", 1)]
@@ -59,13 +57,6 @@ def split_city_country(head: str) -> Tuple[str, str]:
 
 
 def parse_table(panel, ip_version: str) -> List[Dict]:
-    """
-    パネル内のテーブルを解析し、HTTP SD のエントリ配列を返す。
-    - area: パネルタイトル (例 "Asia Pacific", "Middle East", "China")
-    - city: <th class="region-heading"> のテキスト
-    - region: 1列目 (例 "ap-northeast-1")
-    - ip: IPv4 は3列目, IPv6 も "Instance IP" が3列目
-    """
     area = clean_text(panel.select_one(".panel-title").get_text()) if panel.select_one(".panel-title") else ""
     table = panel.select_one("table")
     if table is None:
@@ -76,20 +67,15 @@ def parse_table(panel, ip_version: str) -> List[Dict]:
     current_country = ""
 
     for tr in table.select("tr"):
-        # 地域見出し
         th = tr.find("th", {"class": "region-heading"})
         if th:
             current_city, current_country = split_city_country(th.get_text())
             continue
 
-        # データ行（tdが複数）
         tds = tr.find_all("td")
         if len(tds) >= 3:
             region = clean_text(tds[0].get_text())
-            # tds[1] = Prefix (使わない) / tds[2] が IP or Instance IP
             ip = clean_text(tds[2].get_text())
-
-            # IP が空やヘッダの可能性はスキップ
             if not ip or ip.lower() in {"ip", "instance ip"}:
                 continue
 
@@ -102,10 +88,7 @@ def parse_table(panel, ip_version: str) -> List[Dict]:
                 "ip_version": "6" if ip_version == "v6" else "4",
                 "source": "ec2-reachability",
             }
-            out.append({
-                "targets": [ip],
-                "labels": labels
-            })
+            out.append({"targets": [ip], "labels": labels})
     return out
 
 
@@ -129,13 +112,7 @@ def parse_ipv6(html: str) -> List[Dict]:
 
 def sort_key(g: Dict) -> Tuple:
     L = g.get("labels", {})
-    return (
-        L.get("area", ""),
-        L.get("region", ""),
-        L.get("city", ""),
-        g["targets"][0],
-        L.get("ip_version", "")
-    )
+    return (L.get("area", ""), L.get("region", ""), L.get("city", ""), g["targets"][0], L.get("ip_version", ""))
 
 
 def main():
@@ -149,7 +126,6 @@ def main():
     v4 = parse_ipv4(v4_html)
     v6 = parse_ipv6(v6_html)
 
-    # 重複除去（同一 target+labels の完全一致を避ける）
     def dedup(lst: List[Dict]) -> List[Dict]:
         seen = set()
         uniq = []
