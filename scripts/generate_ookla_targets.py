@@ -3,7 +3,7 @@ import json, os, socket, sys
 from urllib.request import Request, urlopen
 
 OOKLA_API = "https://www.speedtest.net/api/js/servers?engine=js&search=Japan&limit=100"
-OUT_DIR = "out"
+OUT_DIR = "out/ookla" 
 HDRS = {"User-Agent": "github-actions-ookla-targets/1.0"}
 
 def fetch_json(url: str):
