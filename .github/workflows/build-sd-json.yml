@@ -15,17 +15,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
       - name: Install deps
         run: pip install requests beautifulsoup4
-      - name: Build JSON
-        run: python scripts/scrape_ec2_reachability.py
-      - name: Upload Pages artifact
+
+      - name: Build JSON (to out/aws/)
+        run: |
+          mkdir -p out/aws
+          python scripts/scrape_ec2_reachability.py
+
+      - name: Commit generated JSON (out/aws/)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add out/aws/*.json
+          git diff --cached --quiet || git commit -m "chore(aws): update EC2 reachability targets"
+          git push
+
+      - name: Upload Pages artifact (out/ only)
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .  # リポジトリ直下の aws-targets.json を公開
+          path: out
 
   deploy:
     needs: build
