@@ -22,22 +22,8 @@
       "city": "Chiba",
       "sponsor": "Kairun Services",
       "cc": "JP",
-      "fqdn": "speedtest.kairun.jp.prod.hosts.ooklaserver.net",
+      "fqdn": "speedtest.kairun.jp",
       "url": "http://speedtest.kairun.jp:8080/speedtest/upload.php",
-      "ip_family": "v4"
-    }
-  },
-  {
-    "targets": [
-      "27.0.31.50"
-    ],
-    "labels": {
-      "ookla_id": "6405",
-      "city": "Misawa",
-      "sponsor": "Allied Telesis Capital Corporation",
-      "cc": "JP",
-      "fqdn": "sp3.atcc-gns.net.prod.hosts.ooklaserver.net",
-      "url": "http://sp3.atcc-gns.net:8080/speedtest/upload.php",
       "ip_family": "v4"
     }
   },
@@ -178,20 +164,6 @@
       "cc": "JP",
       "fqdn": "jp-nperf.verizon.net.prod.hosts.ooklaserver.net",
       "url": "http://jp-nperf.verizon.net:8080/speedtest/upload.php",
-      "ip_family": "v4"
-    }
-  },
-  {
-    "targets": [
-      "50.7.159.210"
-    ],
-    "labels": {
-      "ookla_id": "28910",
-      "city": "Tokyo",
-      "sponsor": "fdcservers.net",
-      "cc": "JP",
-      "fqdn": "speedtest.hnd.fdcservers.net",
-      "url": "http://speedtest.hnd.fdcservers.net:8080/speedtest/upload.php",
       "ip_family": "v4"
     }
   },
