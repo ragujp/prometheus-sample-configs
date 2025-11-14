@@ -106,7 +106,7 @@
       "city": "Tokyo",
       "sponsor": "GSL Networks",
       "cc": "JP",
-      "fqdn": "ty8.speedtest.gslnetworks.com.prod.hosts.ooklaserver.net",
+      "fqdn": "ty8.speedtest.gslnetworks.com",
       "url": "http://ty8.speedtest.gslnetworks.com:8080/speedtest/upload.php",
       "ip_family": "v4"
     }
