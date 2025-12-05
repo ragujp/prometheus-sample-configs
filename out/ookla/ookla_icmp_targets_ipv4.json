@@ -71,20 +71,6 @@
   },
   {
     "targets": [
-      "133.106.11.186"
-    ],
-    "labels": {
-      "ookla_id": "64352",
-      "city": "Sanda",
-      "sponsor": "Rakuten Mobile, Inc",
-      "cc": "JP",
-      "fqdn": "ookla2.mbspeed.net",
-      "url": "http://ookla2.mbspeed.net:8080/speedtest/upload.php",
-      "ip_family": "v4"
-    }
-  },
-  {
-    "targets": [
       "109.123.228.91"
     ],
     "labels": {
@@ -164,20 +150,6 @@
       "cc": "JP",
       "fqdn": "jp-nperf.verizon.net.prod.hosts.ooklaserver.net",
       "url": "http://jp-nperf.verizon.net:8080/speedtest/upload.php",
-      "ip_family": "v4"
-    }
-  },
-  {
-    "targets": [
-      "50.7.159.210"
-    ],
-    "labels": {
-      "ookla_id": "28910",
-      "city": "Tokyo",
-      "sponsor": "fdcservers.net",
-      "cc": "JP",
-      "fqdn": "speedtest.hnd.fdcservers.net",
-      "url": "http://speedtest.hnd.fdcservers.net:8080/speedtest/upload.php",
       "ip_family": "v4"
     }
   },
