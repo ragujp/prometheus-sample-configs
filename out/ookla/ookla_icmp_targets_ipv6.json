@@ -1,20 +1,6 @@
 [
   {
     "targets": [
-      "240b:11:9e81:201::8080"
-    ],
-    "labels": {
-      "ookla_id": "65197",
-      "city": "Chiba",
-      "sponsor": "Kairun Services",
-      "cc": "JP",
-      "fqdn": "speedtest.kairun.jp.prod.hosts.ooklaserver.net",
-      "url": "http://speedtest.kairun.jp:8080/speedtest/upload.php",
-      "ip_family": "v6"
-    }
-  },
-  {
-    "targets": [
       "2404:2d00:fe01:2::555"
     ],
     "labels": {
