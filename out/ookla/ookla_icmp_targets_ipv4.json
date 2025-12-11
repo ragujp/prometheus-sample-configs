@@ -15,6 +15,20 @@
   },
   {
     "targets": [
+      "114.16.207.6"
+    ],
+    "labels": {
+      "ookla_id": "65197",
+      "city": "Chiba",
+      "sponsor": "Kairun Services",
+      "cc": "JP",
+      "fqdn": "speedtest.kairun.jp.prod.hosts.ooklaserver.net",
+      "url": "http://speedtest.kairun.jp:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
       "27.0.31.50"
     ],
     "labels": {
@@ -164,20 +178,6 @@
       "cc": "JP",
       "fqdn": "speedtest.hnd.fdcservers.net",
       "url": "http://speedtest.hnd.fdcservers.net:8080/speedtest/upload.php",
-      "ip_family": "v4"
-    }
-  },
-  {
-    "targets": [
-      "50.7.158.179"
-    ],
-    "labels": {
-      "ookla_id": "60324",
-      "city": "Tokyo",
-      "sponsor": "サーバーならDDPS.jp",
-      "cc": "JP",
-      "fqdn": "speedtest.ddps.jp.prod.hosts.ooklaserver.net",
-      "url": "http://speedtest.ddps.jp:8080/speedtest/upload.php",
       "ip_family": "v4"
     }
   },
