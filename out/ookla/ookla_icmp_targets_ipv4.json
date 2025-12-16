@@ -71,6 +71,20 @@
   },
   {
     "targets": [
+      "64.176.47.51"
+    ],
+    "labels": {
+      "ookla_id": "73094",
+      "city": "Osaka",
+      "sponsor": "Tek4You Computer Repair & IT Services",
+      "cc": "JP",
+      "fqdn": "t4y-osaka-jp-osts2.ser.tek4you.ca",
+      "url": "http://t4y-osaka-jp-osts2.ser.tek4you.ca:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
       "133.106.11.186"
     ],
     "labels": {
