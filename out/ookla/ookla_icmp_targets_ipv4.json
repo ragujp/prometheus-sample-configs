@@ -183,6 +183,20 @@
   },
   {
     "targets": [
+      "50.7.158.179"
+    ],
+    "labels": {
+      "ookla_id": "60324",
+      "city": "Tokyo",
+      "sponsor": "サーバーならDDPS.jp",
+      "cc": "JP",
+      "fqdn": "speedtest.ddps.jp.prod.hosts.ooklaserver.net",
+      "url": "http://speedtest.ddps.jp:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
       "103.41.63.43"
     ],
     "labels": {
