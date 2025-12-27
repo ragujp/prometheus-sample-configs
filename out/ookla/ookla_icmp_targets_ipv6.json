@@ -57,6 +57,20 @@
   },
   {
     "targets": [
+      "2401:3bc0:800:1::2"
+    ],
+    "labels": {
+      "ookla_id": "50686",
+      "city": "Tokyo",
+      "sponsor": "GSL Networks",
+      "cc": "JP",
+      "fqdn": "ty8.speedtest.gslnetworks.com",
+      "url": "http://ty8.speedtest.gslnetworks.com:8080/speedtest/upload.php",
+      "ip_family": "v6"
+    }
+  },
+  {
+    "targets": [
       "2401:5e40:1000:1112::232"
     ],
     "labels": {
@@ -108,20 +122,6 @@
       "cc": "JP",
       "fqdn": "tyo.st.spacecore.pro.prod.hosts.ooklaserver.net",
       "url": "http://tyo.st.spacecore.pro:8080/speedtest/upload.php",
-      "ip_family": "v6"
-    }
-  },
-  {
-    "targets": [
-      "2001:49f0:d0d9:3:b::4"
-    ],
-    "labels": {
-      "ookla_id": "28910",
-      "city": "Tokyo",
-      "sponsor": "fdcservers.net",
-      "cc": "JP",
-      "fqdn": "speedtest.hnd.fdcservers.net",
-      "url": "http://speedtest.hnd.fdcservers.net:8080/speedtest/upload.php",
       "ip_family": "v6"
     }
   }
