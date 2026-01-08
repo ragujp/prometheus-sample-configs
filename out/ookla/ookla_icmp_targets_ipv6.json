@@ -124,19 +124,5 @@
       "url": "http://tyo.st.spacecore.pro:8080/speedtest/upload.php",
       "ip_family": "v6"
     }
-  },
-  {
-    "targets": [
-      "2001:49f0:d0d9:3:b::4"
-    ],
-    "labels": {
-      "ookla_id": "28910",
-      "city": "Tokyo",
-      "sponsor": "fdcservers.net",
-      "cc": "JP",
-      "fqdn": "speedtest.hnd.fdcservers.net",
-      "url": "http://speedtest.hnd.fdcservers.net:8080/speedtest/upload.php",
-      "ip_family": "v6"
-    }
   }
 ]
