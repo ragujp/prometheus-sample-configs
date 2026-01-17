@@ -169,6 +169,20 @@
   },
   {
     "targets": [
+      "210.81.6.58"
+    ],
+    "labels": {
+      "ookla_id": "50467",
+      "city": "Tokyo",
+      "sponsor": "Verizon",
+      "cc": "JP",
+      "fqdn": "jp-nperf.verizon.net.prod.hosts.ooklaserver.net",
+      "url": "http://jp-nperf.verizon.net:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
       "50.7.158.179"
     ],
     "labels": {
