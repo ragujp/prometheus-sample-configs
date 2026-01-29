@@ -124,5 +124,19 @@
       "url": "http://tyo.st.spacecore.pro:8080/speedtest/upload.php",
       "ip_family": "v6"
     }
+  },
+  {
+    "targets": [
+      "2001:5a0:2200:301::5d9"
+    ],
+    "labels": {
+      "ookla_id": "73628",
+      "city": "Tokyo",
+      "sponsor": "Tata Communications",
+      "cc": "JP",
+      "fqdn": "ookla.tv2.as6453.net.prod.hosts.ooklaserver.net",
+      "url": "http://ookla.tv2.as6453.net:8080/speedtest/upload.php",
+      "ip_family": "v6"
+    }
   }
 ]

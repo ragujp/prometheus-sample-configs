@@ -169,6 +169,20 @@
   },
   {
     "targets": [
+      "120.29.217.45"
+    ],
+    "labels": {
+      "ookla_id": "73628",
+      "city": "Tokyo",
+      "sponsor": "Tata Communications",
+      "cc": "JP",
+      "fqdn": "ookla.tv2.as6453.net.prod.hosts.ooklaserver.net",
+      "url": "http://ookla.tv2.as6453.net:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
       "210.81.6.58"
     ],
     "labels": {
