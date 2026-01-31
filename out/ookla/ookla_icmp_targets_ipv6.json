@@ -106,7 +106,7 @@
       "city": "Tokyo",
       "sponsor": "Rakuten Mobile, Inc",
       "cc": "JP",
-      "fqdn": "ookla.mbspeed.net",
+      "fqdn": "ookla.mbspeed.net.prod.hosts.ooklaserver.net",
       "url": "http://ookla.mbspeed.net:8080/speedtest/upload.php",
       "ip_family": "v6"
     }
