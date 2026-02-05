@@ -57,20 +57,6 @@
   },
   {
     "targets": [
-      "2401:3bc0:800:1::2"
-    ],
-    "labels": {
-      "ookla_id": "50686",
-      "city": "Tokyo",
-      "sponsor": "GSL Networks",
-      "cc": "JP",
-      "fqdn": "ty8.speedtest.gslnetworks.com.prod.hosts.ooklaserver.net",
-      "url": "http://ty8.speedtest.gslnetworks.com:8080/speedtest/upload.php",
-      "ip_family": "v6"
-    }
-  },
-  {
-    "targets": [
       "2401:5e40:1000:1112::232"
     ],
     "labels": {
