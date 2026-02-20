@@ -1,20 +1,6 @@
 [
   {
     "targets": [
-      "103.95.184.74"
-    ],
-    "labels": {
-      "ookla_id": "14623",
-      "city": "Bunkyo",
-      "sponsor": "IPA CyberLab",
-      "cc": "JP",
-      "fqdn": "speed.coe.ad.jp.prod.hosts.ooklaserver.net",
-      "url": "http://speed.coe.ad.jp:8080/speedtest/upload.php",
-      "ip_family": "v4"
-    }
-  },
-  {
-    "targets": [
       "114.16.207.6"
     ],
     "labels": {
