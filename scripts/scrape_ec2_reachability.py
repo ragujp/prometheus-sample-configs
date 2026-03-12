@@ -118,9 +118,9 @@ def main():
 
     print(f"[*] IPv4 entries: {len(v4_sorted)}  IPv6 entries: {len(v6_sorted)}  Total: {len(all_groups)}", file=sys.stderr)
 
-    OUT_ALL.write_text(json.dumps(all_groups, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
-    OUT_V4.write_text(json.dumps(v4_sorted,  ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
-    OUT_V6.write_text(json.dumps(v6_sorted,  ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    OUT_ALL.write_text(json.dumps(all_groups, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    OUT_V4.write_text(json.dumps(v4_sorted,  ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    OUT_V6.write_text(json.dumps(v6_sorted,  ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     print(f"[*] wrote: {OUT_ALL}", file=sys.stderr)
     print(f"[*] wrote: {OUT_V4}", file=sys.stderr)
