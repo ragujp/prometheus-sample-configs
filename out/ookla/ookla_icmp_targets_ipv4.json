@@ -71,6 +71,20 @@
   },
   {
     "targets": [
+      "133.106.11.186"
+    ],
+    "labels": {
+      "ookla_id": "64352",
+      "city": "Sanda",
+      "sponsor": "Rakuten Mobile, Inc",
+      "cc": "JP",
+      "fqdn": "ookla2.mbspeed.net",
+      "url": "http://ookla2.mbspeed.net:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
       "109.123.228.91"
     ],
     "labels": {
@@ -92,7 +106,7 @@
       "city": "Tokyo",
       "sponsor": "GSL Networks",
       "cc": "JP",
-      "fqdn": "ty8.speedtest.gslnetworks.com.prod.hosts.ooklaserver.net",
+      "fqdn": "ty8.speedtest.gslnetworks.com",
       "url": "http://ty8.speedtest.gslnetworks.com:8080/speedtest/upload.php",
       "ip_family": "v4"
     }
