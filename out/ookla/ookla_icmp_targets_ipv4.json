@@ -29,6 +29,20 @@
   },
   {
     "targets": [
+      "27.0.31.18"
+    ],
+    "labels": {
+      "ookla_id": "6087",
+      "city": "Fussa-shi",
+      "sponsor": "Allied Telesis Capital Corporation",
+      "cc": "JP",
+      "fqdn": "sp1.atcc-gns.net.prod.hosts.ooklaserver.net",
+      "url": "http://sp1.atcc-gns.net:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
       "27.0.31.50"
     ],
     "labels": {
