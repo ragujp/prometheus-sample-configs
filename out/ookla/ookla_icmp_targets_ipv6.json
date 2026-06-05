@@ -36,7 +36,7 @@
       "city": "Sanda",
       "sponsor": "Rakuten Mobile, Inc",
       "cc": "JP",
-      "fqdn": "ookla2.mbspeed.net.prod.hosts.ooklaserver.net",
+      "fqdn": "ookla2.mbspeed.net",
       "url": "http://ookla2.mbspeed.net:8080/speedtest/upload.php",
       "ip_family": "v6"
     }
