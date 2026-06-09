@@ -29,6 +29,20 @@
   },
   {
     "targets": [
+      "27.0.31.18"
+    ],
+    "labels": {
+      "ookla_id": "6087",
+      "city": "Fussa-shi",
+      "sponsor": "Allied Telesis Capital Corporation",
+      "cc": "JP",
+      "fqdn": "sp1.atcc-gns.net.prod.hosts.ooklaserver.net",
+      "url": "http://sp1.atcc-gns.net:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
       "27.0.31.50"
     ],
     "labels": {
@@ -52,20 +66,6 @@
       "cc": "JP",
       "fqdn": "speedtest-xg-oki.glbb.ne.jp.prod.hosts.ooklaserver.net",
       "url": "http://speedtest-xg-oki.glbb.ne.jp:8080/speedtest/upload.php",
-      "ip_family": "v4"
-    }
-  },
-  {
-    "targets": [
-      "27.0.31.66"
-    ],
-    "labels": {
-      "ookla_id": "31181",
-      "city": "Okinawa",
-      "sponsor": "Allied Telesis Capital Corp.",
-      "cc": "JP",
-      "fqdn": "sp7.atcc-gns.net.prod.hosts.ooklaserver.net",
-      "url": "http://sp7.atcc-gns.net:8080/speedtest/upload.php",
       "ip_family": "v4"
     }
   },
@@ -120,7 +120,7 @@
       "city": "Tokyo",
       "sponsor": "GSL Networks",
       "cc": "JP",
-      "fqdn": "ty8.speedtest.gslnetworks.com",
+      "fqdn": "ty8.speedtest.gslnetworks.com.prod.hosts.ooklaserver.net",
       "url": "http://ty8.speedtest.gslnetworks.com:8080/speedtest/upload.php",
       "ip_family": "v4"
     }
@@ -136,20 +136,6 @@
       "cc": "JP",
       "fqdn": "speed.udx.icscoe.jp",
       "url": "http://speed.udx.icscoe.jp:8080/speedtest/upload.php",
-      "ip_family": "v4"
-    }
-  },
-  {
-    "targets": [
-      "209.146.123.56"
-    ],
-    "labels": {
-      "ookla_id": "69575",
-      "city": "Tokyo",
-      "sponsor": "Nearoute Limited",
-      "cc": "JP",
-      "fqdn": "ty-bgp-speedtest.nearoute.io.prod.hosts.ooklaserver.net",
-      "url": "http://ty-bgp-speedtest.nearoute.io:8080/speedtest/upload.php",
       "ip_family": "v4"
     }
   },

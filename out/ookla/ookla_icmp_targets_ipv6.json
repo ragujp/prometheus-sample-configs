@@ -78,7 +78,7 @@
       "city": "Tokyo",
       "sponsor": "GSL Networks",
       "cc": "JP",
-      "fqdn": "ty8.speedtest.gslnetworks.com",
+      "fqdn": "ty8.speedtest.gslnetworks.com.prod.hosts.ooklaserver.net",
       "url": "http://ty8.speedtest.gslnetworks.com:8080/speedtest/upload.php",
       "ip_family": "v6"
     }
@@ -94,20 +94,6 @@
       "cc": "JP",
       "fqdn": "speed.udx.icscoe.jp",
       "url": "http://speed.udx.icscoe.jp:8080/speedtest/upload.php",
-      "ip_family": "v6"
-    }
-  },
-  {
-    "targets": [
-      "2a12:f8c1:50:f::3"
-    ],
-    "labels": {
-      "ookla_id": "69575",
-      "city": "Tokyo",
-      "sponsor": "Nearoute Limited",
-      "cc": "JP",
-      "fqdn": "ty-bgp-speedtest.nearoute.io.prod.hosts.ooklaserver.net",
-      "url": "http://ty-bgp-speedtest.nearoute.io:8080/speedtest/upload.php",
       "ip_family": "v6"
     }
   },
