@@ -71,20 +71,6 @@
   },
   {
     "targets": [
-      "85.149.219.37"
-    ],
-    "labels": {
-      "ookla_id": "74826",
-      "city": "Tokyo",
-      "sponsor": "BUG NET",
-      "cc": "JP",
-      "fqdn": "jp.speedtest.bug.pw.prod.hosts.ooklaserver.net",
-      "url": "http://jp.speedtest.bug.pw:8080/speedtest/upload.php",
-      "ip_family": "v4"
-    }
-  },
-  {
-    "targets": [
       "109.123.228.91"
     ],
     "labels": {
@@ -136,20 +122,6 @@
       "cc": "JP",
       "fqdn": "jp-nperf.verizon.net.prod.hosts.ooklaserver.net",
       "url": "http://jp-nperf.verizon.net:8080/speedtest/upload.php",
-      "ip_family": "v4"
-    }
-  },
-  {
-    "targets": [
-      "133.223.35.77"
-    ],
-    "labels": {
-      "ookla_id": "75170",
-      "city": "Tokyo",
-      "sponsor": "lunaiz. Co., Ltd.",
-      "cc": "JP",
-      "fqdn": "jp1-speedtest-infra.lunaiz.com.prod.hosts.ooklaserver.net",
-      "url": "http://jp1-speedtest-infra.lunaiz.com:8080/speedtest/upload.php",
       "ip_family": "v4"
     }
   },
