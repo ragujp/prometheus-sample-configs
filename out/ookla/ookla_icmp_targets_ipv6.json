@@ -15,6 +15,20 @@
   },
   {
     "targets": [
+      "2001:470:23:6ff::2"
+    ],
+    "labels": {
+      "ookla_id": "75351",
+      "city": "Ginowan",
+      "sponsor": "Gisho Work",
+      "cc": "JP",
+      "fqdn": "gisho.work.prod.hosts.ooklaserver.net",
+      "url": "http://gisho.work:8080/speedtest/upload.php",
+      "ip_family": "v6"
+    }
+  },
+  {
+    "targets": [
       "2404:2d00:fe01:2::555"
     ],
     "labels": {
@@ -80,20 +94,6 @@
       "cc": "JP",
       "fqdn": "ookla.mbspeed.net",
       "url": "http://ookla.mbspeed.net:8080/speedtest/upload.php",
-      "ip_family": "v6"
-    }
-  },
-  {
-    "targets": [
-      "2001:49f0:d0d9:3:b::4"
-    ],
-    "labels": {
-      "ookla_id": "28910",
-      "city": "Tokyo",
-      "sponsor": "fdcservers.net",
-      "cc": "JP",
-      "fqdn": "speedtest.hnd.fdcservers.net",
-      "url": "http://speedtest.hnd.fdcservers.net:8080/speedtest/upload.php",
       "ip_family": "v6"
     }
   }
