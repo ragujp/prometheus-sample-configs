@@ -29,6 +29,20 @@
   },
   {
     "targets": [
+      "122.128.116.83"
+    ],
+    "labels": {
+      "ookla_id": "75351",
+      "city": "Ginowan",
+      "sponsor": "Gisho Work",
+      "cc": "JP",
+      "fqdn": "gisho.work.prod.hosts.ooklaserver.net",
+      "url": "http://gisho.work:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
       "27.0.31.50"
     ],
     "labels": {
