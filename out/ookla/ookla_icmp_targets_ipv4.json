@@ -85,20 +85,6 @@
   },
   {
     "targets": [
-      "109.123.228.91"
-    ],
-    "labels": {
-      "ookla_id": "56935",
-      "city": "Tokyo",
-      "sponsor": "Contabo",
-      "cc": "JP",
-      "fqdn": "tyo.speedtest.contabo.net",
-      "url": "http://tyo.speedtest.contabo.net:8080/speedtest/upload.php",
-      "ip_family": "v4"
-    }
-  },
-  {
-    "targets": [
       "219.100.92.232"
     ],
     "labels": {
