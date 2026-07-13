@@ -85,20 +85,6 @@
   },
   {
     "targets": [
-      "240b:c010:101:1608:59d7:2:0:1"
-    ],
-    "labels": {
-      "ookla_id": "24333",
-      "city": "Tokyo",
-      "sponsor": "Rakuten Mobile, Inc",
-      "cc": "JP",
-      "fqdn": "ookla.mbspeed.net",
-      "url": "http://ookla.mbspeed.net:8080/speedtest/upload.php",
-      "ip_family": "v6"
-    }
-  },
-  {
-    "targets": [
       "2001:49f0:d0d9:3:b::4"
     ],
     "labels": {
