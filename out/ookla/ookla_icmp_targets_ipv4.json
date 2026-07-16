@@ -113,6 +113,20 @@
   },
   {
     "targets": [
+      "103.124.1.250"
+    ],
+    "labels": {
+      "ookla_id": "24333",
+      "city": "Tokyo",
+      "sponsor": "Rakuten Mobile, Inc",
+      "cc": "JP",
+      "fqdn": "ookla.mbspeed.net",
+      "url": "http://ookla.mbspeed.net:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
       "210.81.6.58"
     ],
     "labels": {
@@ -162,7 +176,7 @@
       "city": "Tsukuba",
       "sponsor": "SoftEther Corporation",
       "cc": "JP",
-      "fqdn": "speedtest.softether.co.jp.prod.hosts.ooklaserver.net",
+      "fqdn": "speedtest.softether.co.jp",
       "url": "http://speedtest.softether.co.jp:8080/speedtest/upload.php",
       "ip_family": "v4"
     }
