@@ -1877,6 +1877,20 @@
   },
   {
     "targets": [
+      "56.11.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Asia Pacific",
+      "region": "ap-southeast-1",
+      "city": "Singapore",
+      "country": "",
+      "ip_version": "4",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
       "13.210.0.252"
     ],
     "labels": {
@@ -5727,6 +5741,20 @@
   },
   {
     "targets": [
+      "184.192.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "US East",
+      "region": "us-east-1",
+      "city": "N. Virginia",
+      "country": "",
+      "ip_version": "4",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
       "184.72.255.254"
     ],
     "labels": {
@@ -6903,6 +6931,20 @@
   },
   {
     "targets": [
+      "77.112.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "US East",
+      "region": "us-east-2",
+      "city": "Ohio",
+      "country": "",
+      "ip_version": "4",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
       "16.64.0.0"
     ],
     "labels": {
@@ -7575,6 +7617,34 @@
   },
   {
     "targets": [
+      "16.147.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "US West",
+      "region": "us-west-2",
+      "city": "Oregon",
+      "country": "",
+      "ip_version": "4",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "16.148.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "US West",
+      "region": "us-west-2",
+      "city": "Oregon",
+      "country": "",
+      "ip_version": "4",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
       "18.236.0.0"
     ],
     "labels": {
@@ -7654,6 +7724,20 @@
       "city": "Oregon",
       "country": "",
       "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "32.184.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "US West",
+      "region": "us-west-2",
+      "city": "Oregon",
+      "country": "",
+      "ip_version": "4",
       "source": "ec2-reachability"
     }
   },
