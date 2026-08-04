@@ -1723,6 +1723,20 @@
   },
   {
     "targets": [
+      "16.178.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Asia Pacific",
+      "region": "ap-southeast-2",
+      "city": "Sydney",
+      "country": "",
+      "ip_version": "4",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
       "3.104.0.0"
     ],
     "labels": {
