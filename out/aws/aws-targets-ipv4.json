@@ -4971,6 +4971,20 @@
   },
   {
     "targets": [
+      "32.192.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "US East",
+      "region": "us-east-1",
+      "city": "N. Virginia",
+      "country": "",
+      "ip_version": "4",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
       "34.192.0.54"
     ],
     "labels": {
