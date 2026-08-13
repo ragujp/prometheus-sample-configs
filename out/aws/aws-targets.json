@@ -3809,6 +3809,20 @@
   },
   {
     "targets": [
+      "86.112.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Europe",
+      "region": "eu-north-1",
+      "city": "Stockholm",
+      "country": "",
+      "ip_version": "4",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
       "15.160.0.0"
     ],
     "labels": {
