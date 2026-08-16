@@ -3501,6 +3501,20 @@
   },
   {
     "targets": [
+      "99.200.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Europe",
+      "region": "eu-central-1",
+      "city": "Frankfurt",
+      "country": "",
+      "ip_version": "4",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
       "16.18.0.0"
     ],
     "labels": {
@@ -4006,6 +4020,20 @@
   {
     "targets": [
       "35.42.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Europe",
+      "region": "eu-south-2",
+      "city": "Spain",
+      "country": "",
+      "ip_version": "4",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "35.43.0.0"
     ],
     "labels": {
       "provider": "aws",
