@@ -29,6 +29,20 @@
   },
   {
     "targets": [
+      "122.128.116.83"
+    ],
+    "labels": {
+      "ookla_id": "75351",
+      "city": "Ginowan",
+      "sponsor": "Gisho Work",
+      "cc": "JP",
+      "fqdn": "gisho.work.prod.hosts.ooklaserver.net",
+      "url": "http://gisho.work:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
       "27.0.31.50"
     ],
     "labels": {
@@ -92,7 +106,7 @@
       "city": "Tokyo",
       "sponsor": "GSL Networks",
       "cc": "JP",
-      "fqdn": "ty8.speedtest.gslnetworks.com.prod.hosts.ooklaserver.net",
+      "fqdn": "ty8.speedtest.gslnetworks.com",
       "url": "http://ty8.speedtest.gslnetworks.com:8080/speedtest/upload.php",
       "ip_family": "v4"
     }
@@ -136,20 +150,6 @@
       "cc": "JP",
       "fqdn": "jp-nperf.verizon.net.prod.hosts.ooklaserver.net",
       "url": "http://jp-nperf.verizon.net:8080/speedtest/upload.php",
-      "ip_family": "v4"
-    }
-  },
-  {
-    "targets": [
-      "50.7.159.210"
-    ],
-    "labels": {
-      "ookla_id": "28910",
-      "city": "Tokyo",
-      "sponsor": "fdcservers.net",
-      "cc": "JP",
-      "fqdn": "speedtest.hnd.fdcservers.net",
-      "url": "http://speedtest.hnd.fdcservers.net:8080/speedtest/upload.php",
       "ip_family": "v4"
     }
   },
