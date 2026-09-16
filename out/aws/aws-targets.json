@@ -2549,7 +2549,21 @@
   },
   {
     "targets": [
-      "2406:da12:8531:3400::ec2"
+      "2406:da12:83be::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Asia Pacific",
+      "region": "ap-southeast-6",
+      "city": "New Zealand",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2406:da22:8006::ec2"
     ],
     "labels": {
       "provider": "aws",
