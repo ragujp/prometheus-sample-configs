@@ -57,20 +57,6 @@
   },
   {
     "targets": [
-      "2400:d320:5028:1091::"
-    ],
-    "labels": {
-      "ookla_id": "56935",
-      "city": "Tokyo",
-      "sponsor": "Contabo",
-      "cc": "JP",
-      "fqdn": "tyo.speedtest.contabo.net",
-      "url": "http://tyo.speedtest.contabo.net:8080/speedtest/upload.php",
-      "ip_family": "v6"
-    }
-  },
-  {
-    "targets": [
       "2401:3bc0:800:1::2"
     ],
     "labels": {
@@ -108,20 +94,6 @@
       "cc": "JP",
       "fqdn": "ookla.mbspeed.net",
       "url": "http://ookla.mbspeed.net:8080/speedtest/upload.php",
-      "ip_family": "v6"
-    }
-  },
-  {
-    "targets": [
-      "2001:49f0:d0d9:3:b::4"
-    ],
-    "labels": {
-      "ookla_id": "28910",
-      "city": "Tokyo",
-      "sponsor": "fdcservers.net",
-      "cc": "JP",
-      "fqdn": "speedtest.hnd.fdcservers.net",
-      "url": "http://speedtest.hnd.fdcservers.net:8080/speedtest/upload.php",
       "ip_family": "v6"
     }
   }
