@@ -57,15 +57,15 @@
   },
   {
     "targets": [
-      "2401:3bc0:800:1::2"
+      "2400:d320:5028:1091::"
     ],
     "labels": {
-      "ookla_id": "50686",
+      "ookla_id": "56935",
       "city": "Tokyo",
-      "sponsor": "GSL Networks",
+      "sponsor": "Contabo",
       "cc": "JP",
-      "fqdn": "ty8.speedtest.gslnetworks.com",
-      "url": "http://ty8.speedtest.gslnetworks.com:8080/speedtest/upload.php",
+      "fqdn": "tyo.speedtest.contabo.net",
+      "url": "http://tyo.speedtest.contabo.net:8080/speedtest/upload.php",
       "ip_family": "v6"
     }
   },
