@@ -1,20 +1,6 @@
 [
   {
     "targets": [
-      "103.95.184.74"
-    ],
-    "labels": {
-      "ookla_id": "14623",
-      "city": "Bunkyo",
-      "sponsor": "IPA CyberLab",
-      "cc": "JP",
-      "fqdn": "speed.coe.ad.jp.prod.hosts.ooklaserver.net",
-      "url": "http://speed.coe.ad.jp:8080/speedtest/upload.php",
-      "ip_family": "v4"
-    }
-  },
-  {
-    "targets": [
       "114.16.207.6"
     ],
     "labels": {
@@ -80,34 +66,6 @@
       "cc": "JP",
       "fqdn": "ookla2.mbspeed.net",
       "url": "http://ookla2.mbspeed.net:8080/speedtest/upload.php",
-      "ip_family": "v4"
-    }
-  },
-  {
-    "targets": [
-      "109.123.228.91"
-    ],
-    "labels": {
-      "ookla_id": "56935",
-      "city": "Tokyo",
-      "sponsor": "Contabo",
-      "cc": "JP",
-      "fqdn": "tyo.speedtest.contabo.net",
-      "url": "http://tyo.speedtest.contabo.net:8080/speedtest/upload.php",
-      "ip_family": "v4"
-    }
-  },
-  {
-    "targets": [
-      "203.10.99.1"
-    ],
-    "labels": {
-      "ookla_id": "50686",
-      "city": "Tokyo",
-      "sponsor": "GSL Networks",
-      "cc": "JP",
-      "fqdn": "ty8.speedtest.gslnetworks.com",
-      "url": "http://ty8.speedtest.gslnetworks.com:8080/speedtest/upload.php",
       "ip_family": "v4"
     }
   },
