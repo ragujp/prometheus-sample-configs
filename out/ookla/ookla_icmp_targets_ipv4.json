@@ -57,6 +57,20 @@
   },
   {
     "targets": [
+      "163.138.210.150"
+    ],
+    "labels": {
+      "ookla_id": "76556",
+      "city": "Sagamihara",
+      "sponsor": "KAIT NWLAB 400G",
+      "cc": "JP",
+      "fqdn": "speedtest.nwlab.org",
+      "url": "http://speedtest.nwlab.org:8080/speedtest/upload.php",
+      "ip_family": "v4"
+    }
+  },
+  {
+    "targets": [
       "133.106.11.186"
     ],
     "labels": {
