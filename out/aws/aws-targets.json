@@ -7141,7 +7141,21 @@
   },
   {
     "targets": [
-      "2600:1f15:633:f100::ec2"
+      "2600:1f15:8f0:d600::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "US East",
+      "region": "us-gov-east-1",
+      "city": "AWS GovCloud",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2600:1f25:2c:8000::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -7197,7 +7211,21 @@
   },
   {
     "targets": [
-      "2600:1f12:8f0:2f00::ec2"
+      "2600:1f12:653:cc00::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "US West",
+      "region": "us-gov-west-1",
+      "city": "AWS GovCloud",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2600:1f22:5:c000::ec2"
     ],
     "labels": {
       "provider": "aws",
