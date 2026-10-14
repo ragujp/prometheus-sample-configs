@@ -43,6 +43,20 @@
   },
   {
     "targets": [
+      "2001:2f8:3a:20c1::150"
+    ],
+    "labels": {
+      "ookla_id": "76556",
+      "city": "Sagamihara",
+      "sponsor": "KAIT NWLAB 400G",
+      "cc": "JP",
+      "fqdn": "speedtest.nwlab.org",
+      "url": "http://speedtest.nwlab.org:8080/speedtest/upload.php",
+      "ip_family": "v6"
+    }
+  },
+  {
+    "targets": [
       "240b:c020:101:1608::100"
     ],
     "labels": {
@@ -52,6 +66,20 @@
       "cc": "JP",
       "fqdn": "ookla2.mbspeed.net",
       "url": "http://ookla2.mbspeed.net:8080/speedtest/upload.php",
+      "ip_family": "v6"
+    }
+  },
+  {
+    "targets": [
+      "2400:d320:5028:1091::"
+    ],
+    "labels": {
+      "ookla_id": "56935",
+      "city": "Tokyo",
+      "sponsor": "Contabo",
+      "cc": "JP",
+      "fqdn": "tyo.speedtest.contabo.net",
+      "url": "http://tyo.speedtest.contabo.net:8080/speedtest/upload.php",
       "ip_family": "v6"
     }
   },
