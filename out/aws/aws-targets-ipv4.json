@@ -5727,6 +5727,20 @@
   },
   {
     "targets": [
+      "13.184.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "US East",
+      "region": "us-east-2",
+      "city": "Ohio",
+      "country": "",
+      "ip_version": "4",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
       "13.58.0.253"
     ],
     "labels": {
