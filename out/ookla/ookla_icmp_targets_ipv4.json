@@ -99,20 +99,6 @@
   },
   {
     "targets": [
-      "219.100.92.232"
-    ],
-    "labels": {
-      "ookla_id": "48463",
-      "city": "Tokyo",
-      "sponsor": "IPA CyberLab 400G",
-      "cc": "JP",
-      "fqdn": "speed.udx.icscoe.jp",
-      "url": "http://speed.udx.icscoe.jp:8080/speedtest/upload.php",
-      "ip_family": "v4"
-    }
-  },
-  {
-    "targets": [
       "103.124.1.250"
     ],
     "labels": {
