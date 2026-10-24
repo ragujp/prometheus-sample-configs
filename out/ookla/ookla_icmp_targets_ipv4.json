@@ -43,20 +43,6 @@
   },
   {
     "targets": [
-      "27.0.31.50"
-    ],
-    "labels": {
-      "ookla_id": "6405",
-      "city": "Misawa",
-      "sponsor": "Allied Telesis Capital Corporation",
-      "cc": "JP",
-      "fqdn": "sp3.atcc-gns.net.prod.hosts.ooklaserver.net",
-      "url": "http://sp3.atcc-gns.net:8080/speedtest/upload.php",
-      "ip_family": "v4"
-    }
-  },
-  {
-    "targets": [
       "103.13.250.27"
     ],
     "labels": {
@@ -150,20 +136,6 @@
       "cc": "JP",
       "fqdn": "speedtest.ddps.jp.prod.hosts.ooklaserver.net",
       "url": "http://speedtest.ddps.jp:8080/speedtest/upload.php",
-      "ip_family": "v4"
-    }
-  },
-  {
-    "targets": [
-      "103.41.63.43"
-    ],
-    "labels": {
-      "ookla_id": "7139",
-      "city": "Tsukuba",
-      "sponsor": "SoftEther Corporation",
-      "cc": "JP",
-      "fqdn": "speedtest.softether.co.jp",
-      "url": "http://speedtest.softether.co.jp:8080/speedtest/upload.php",
       "ip_family": "v4"
     }
   }
