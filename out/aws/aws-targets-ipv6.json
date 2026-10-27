@@ -351,7 +351,21 @@
   },
   {
     "targets": [
-      "2406:da10:8bf5:4a00::ec2"
+      "2406:da10:8a27:4600::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Asia Pacific",
+      "region": "ap-southeast-5",
+      "city": "Malaysia",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2406:da20:800d:4000::ec2"
     ],
     "labels": {
       "provider": "aws",
