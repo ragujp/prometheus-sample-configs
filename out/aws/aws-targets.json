@@ -85,7 +85,21 @@
   },
   {
     "targets": [
-      "2406:da11:e6b:8100::ec2"
+      "2406:da11:878:b300::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Africa",
+      "region": "af-south-1",
+      "city": "Cape Town",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2406:da21:1b:4000::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -183,7 +197,21 @@
   },
   {
     "targets": [
-      "2406:da1e:fca:1600::ec2"
+      "2406:da1e:4a:9b00::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Asia Pacific",
+      "region": "ap-east-1",
+      "city": "Hong Kong",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2406:da2e:1f:c000::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -253,7 +281,21 @@
   },
   {
     "targets": [
-      "2406:da1c:871c:e600::ec2"
+      "2406:da1c:87ba:b500::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Asia Pacific",
+      "region": "ap-east-2",
+      "city": "Taipei",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2600:1f20:c00e:c000::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -2325,7 +2367,21 @@
   },
   {
     "targets": [
-      "2406:da19:d6c:f600::ec2"
+      "2406:da19:98c:dc00::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Asia Pacific",
+      "region": "ap-southeast-3",
+      "city": "Jakarta",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2406:da29:f::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -2423,7 +2479,21 @@
   },
   {
     "targets": [
-      "2406:da1f:843:b900::ec2"
+      "2406:da1f:5fe:1800::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Asia Pacific",
+      "region": "ap-southeast-4",
+      "city": "Melbourne",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2406:da2f:e:4000::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -2619,7 +2689,21 @@
   },
   {
     "targets": [
-      "2406:da14:8793:7900::ec2"
+      "2406:da14:84de:ed00::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Asia Pacific",
+      "region": "ap-southeast-7",
+      "city": "Thailand",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2406:da24:800c:c000::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -5139,7 +5223,21 @@
   },
   {
     "targets": [
-      "2600:1f17:41e7:d200::ec2"
+      "2600:1f17:4934:a100::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Mexico",
+      "region": "mx-central-1",
+      "city": "Central",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2600:1f27:4012::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -5209,7 +5307,21 @@
   },
   {
     "targets": [
-      "2a05:d025:c4:1f00::ec2"
+      "2a05:d025:100b:8000::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Middle East",
+      "region": "il-central-1",
+      "city": "Israel",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2a05:d025:16d:7200::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -6008,6 +6120,20 @@
   {
     "targets": [
       "32.192.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "US East",
+      "region": "us-east-1",
+      "city": "N. Virginia",
+      "country": "",
+      "ip_version": "4",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "32.200.0.0"
     ],
     "labels": {
       "provider": "aws",
