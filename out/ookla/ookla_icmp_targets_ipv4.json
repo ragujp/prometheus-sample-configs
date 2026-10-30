@@ -127,20 +127,6 @@
   },
   {
     "targets": [
-      "45.77.180.145"
-    ],
-    "labels": {
-      "ookla_id": "10384",
-      "city": "Tokyo",
-      "sponsor": "Vultr",
-      "cc": "JP",
-      "fqdn": "tokyo.host.speedtest.net.prod.hosts.ooklaserver.net",
-      "url": "http://tokyo.host.speedtest.net:8080/speedtest/upload.php",
-      "ip_family": "v4"
-    }
-  },
-  {
-    "targets": [
       "50.7.158.179"
     ],
     "labels": {
