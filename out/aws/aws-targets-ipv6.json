@@ -253,7 +253,21 @@
   },
   {
     "targets": [
-      "2406:da1b:354:a600::ec2"
+      "2406:da1b:c41:8800::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Asia Pacific",
+      "region": "ap-south-2",
+      "city": "Hyderabad",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2406:da2b:19:c000::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -743,7 +757,21 @@
   },
   {
     "targets": [
-      "2a05:d01a:c2d:7500::ec2"
+      "2a05:d01a:eab:cd00::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Europe",
+      "region": "eu-south-1",
+      "city": "Milan",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2a05:d02a:21:4000::ec2"
     ],
     "labels": {
       "provider": "aws",

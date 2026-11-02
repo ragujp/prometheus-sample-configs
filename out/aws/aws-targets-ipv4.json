@@ -85,6 +85,20 @@
   },
   {
     "targets": [
+      "16.106.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Asia Pacific",
+      "region": "ap-east-1",
+      "city": "Hong Kong",
+      "country": "",
+      "ip_version": "4",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
       "16.162.0.253"
     ],
     "labels": {
@@ -1066,6 +1080,20 @@
   {
     "targets": [
       "15.206.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Asia Pacific",
+      "region": "ap-south-1",
+      "city": "Mumbai",
+      "country": "",
+      "ip_version": "4",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "16.4.0.0"
     ],
     "labels": {
       "provider": "aws",
@@ -2213,7 +2241,35 @@
   },
   {
     "targets": [
+      "65.178.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Asia Pacific",
+      "region": "ap-southeast-7",
+      "city": "Thailand",
+      "country": "",
+      "ip_version": "4",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
       "15.156.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Canada",
+      "region": "ca-central-1",
+      "city": "Central",
+      "country": "",
+      "ip_version": "4",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "15.175.0.0"
     ],
     "labels": {
       "provider": "aws",
@@ -2941,6 +2997,20 @@
   },
   {
     "targets": [
+      "63.184.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Europe",
+      "region": "eu-central-1",
+      "city": "Frankfurt",
+      "country": "",
+      "ip_version": "4",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
       "99.200.0.0"
     ],
     "labels": {
@@ -3571,6 +3641,20 @@
   },
   {
     "targets": [
+      "40.180.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Europe",
+      "region": "eu-west-1",
+      "city": "Ireland",
+      "country": "",
+      "ip_version": "4",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
       "46.137.120.1"
     ],
     "labels": {
@@ -3992,6 +4076,20 @@
   {
     "targets": [
       "16.60.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Europe",
+      "region": "eu-west-2",
+      "city": "London",
+      "country": "",
+      "ip_version": "4",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "16.61.0.0"
     ],
     "labels": {
       "provider": "aws",
@@ -5783,6 +5881,20 @@
   },
   {
     "targets": [
+      "16.59.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "US East",
+      "region": "us-east-2",
+      "city": "Ohio",
+      "country": "",
+      "ip_version": "4",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
       "18.116.0.0"
     ],
     "labels": {
@@ -6750,6 +6862,20 @@
   {
     "targets": [
       "184.36.0.0"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "US West",
+      "region": "us-west-2",
+      "city": "Oregon",
+      "country": "",
+      "ip_version": "4",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "184.40.0.0"
     ],
     "labels": {
       "provider": "aws",
