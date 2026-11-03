@@ -225,7 +225,21 @@
   },
   {
     "targets": [
-      "2406:da1a:ddd:7400::ec2"
+      "2406:da1a:38:6700::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Asia Pacific",
+      "region": "ap-south-1",
+      "city": "Mumbai",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2406:da2a:33:c000::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -561,7 +575,21 @@
   },
   {
     "targets": [
-      "2600:1f11:b15:2000::ec2"
+      "2600:1f11:bc1:bb00::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Canada",
+      "region": "ca-central-1",
+      "city": "Central",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2600:1f21:2:4000::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -589,7 +617,21 @@
   },
   {
     "targets": [
-      "2600:1f1a:448e:2200::ec2"
+      "2600:1f1a:4f79:c500::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Canada",
+      "region": "ca-west-1",
+      "city": "Calgary",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2600:1f2a:4018:4000::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -701,7 +743,21 @@
   },
   {
     "targets": [
-      "2a05:d019:334:6b00::ec2"
+      "2a05:d019:d76:d300::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Europe",
+      "region": "eu-central-2",
+      "city": "Zurich",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2a05:d029:15:8000::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -799,7 +855,21 @@
   },
   {
     "targets": [
-      "2a05:d011:553:1200::ec2"
+      "2a05:d011:ca1:3800::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Europe",
+      "region": "eu-south-2",
+      "city": "Spain",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2a05:d021:1::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -1065,7 +1135,21 @@
   },
   {
     "targets": [
-      "2600:1f1e:99e:9f00::ec2"
+      "2600:1f1e:bac:700::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "South America",
+      "region": "sa-east-1",
+      "city": "São Paulo",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2600:1f2e:d2:4000::ec2"
     ],
     "labels": {
       "provider": "aws",
