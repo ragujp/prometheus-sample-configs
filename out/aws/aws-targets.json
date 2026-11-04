@@ -5405,7 +5405,21 @@
   },
   {
     "targets": [
-      "2001:3fc1:8b2f:bd00::ec2"
+      "2001:3fc1:81a9:f600::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Europe",
+      "region": "eusc-de-east-1",
+      "city": "AWS European Sovereign Cloud (Germany)",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2001:3fc2:8007:c000::ec2"
     ],
     "labels": {
       "provider": "aws",
