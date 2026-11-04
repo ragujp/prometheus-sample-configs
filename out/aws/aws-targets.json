@@ -617,7 +617,21 @@
   },
   {
     "targets": [
-      "2406:da14:295:300::ec2"
+      "2406:da14:1923:da01::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Asia Pacific",
+      "region": "ap-northeast-1",
+      "city": "Tokyo",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2406:da24:b:8000::ec2"
     ],
     "labels": {
       "provider": "aws",
