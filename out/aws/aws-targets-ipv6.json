@@ -169,7 +169,21 @@
   },
   {
     "targets": [
-      "2406:da12:128:d200::ec2"
+      "2406:da12:851:a00::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Asia Pacific",
+      "region": "ap-northeast-2",
+      "city": "Seoul",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2406:da22:3f::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -197,7 +211,21 @@
   },
   {
     "targets": [
-      "2406:da16:730:7300::ec2"
+      "2406:da16:826:fb00::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Asia Pacific",
+      "region": "ap-northeast-3",
+      "city": "Osaka",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2406:da26:e:4000::ec2"
     ],
     "labels": {
       "provider": "aws",
