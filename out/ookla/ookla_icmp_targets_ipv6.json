@@ -43,6 +43,20 @@
   },
   {
     "targets": [
+      "2401:c080:3800:3d5a:5400:7ff:fe00:a7b3"
+    ],
+    "labels": {
+      "ookla_id": "17058",
+      "city": "Osaka",
+      "sponsor": "Vultr",
+      "cc": "JP",
+      "fqdn": "osaka.host.speedtest.net.prod.hosts.ooklaserver.net",
+      "url": "http://osaka.host.speedtest.net:8080/speedtest/upload.php",
+      "ip_family": "v6"
+    }
+  },
+  {
+    "targets": [
       "240b:c020:101:1608::100"
     ],
     "labels": {
@@ -94,6 +108,34 @@
       "cc": "JP",
       "fqdn": "ty-bgp-speedtest.nearoute.io.prod.hosts.ooklaserver.net",
       "url": "http://ty-bgp-speedtest.nearoute.io:8080/speedtest/upload.php",
+      "ip_family": "v6"
+    }
+  },
+  {
+    "targets": [
+      "2a11:840:6:1b::5879:431d"
+    ],
+    "labels": {
+      "ookla_id": "75045",
+      "city": "Tokyo",
+      "sponsor": "OneCloud",
+      "cc": "JP",
+      "fqdn": "tok1.host.speedtest.net.prod.hosts.ooklaserver.net",
+      "url": "http://tok1.host.speedtest.net:8080/speedtest/upload.php",
+      "ip_family": "v6"
+    }
+  },
+  {
+    "targets": [
+      "2a11:840:6:1b::bbe1:326"
+    ],
+    "labels": {
+      "ookla_id": "49517",
+      "city": "Tokyo",
+      "sponsor": "OneProvider",
+      "cc": "JP",
+      "fqdn": "tok2.host.speedtest.net.prod.hosts.ooklaserver.net",
+      "url": "http://tok2.host.speedtest.net:8080/speedtest/upload.php",
       "ip_family": "v6"
     }
   },
