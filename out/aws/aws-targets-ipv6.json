@@ -351,7 +351,21 @@
   },
   {
     "targets": [
-      "2406:da18:ec6:6400::ec2"
+      "2406:da18:943:3b00::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Asia Pacific",
+      "region": "ap-southeast-1",
+      "city": "Singapore",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2406:da28:1c:8000::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -379,7 +393,21 @@
   },
   {
     "targets": [
-      "2406:da1c:16:9000::ec2"
+      "2406:da1c:1b59:7100::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Asia Pacific",
+      "region": "ap-southeast-2",
+      "city": "Sydney",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2406:da2c:b:8000::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -757,7 +785,21 @@
   },
   {
     "targets": [
-      "2a05:d014:4e3:5000::ec2"
+      "2a05:d014:82b:3800::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Europe",
+      "region": "eu-central-1",
+      "city": "Frankfurt",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2a05:d024:85:4000::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -827,7 +869,21 @@
   },
   {
     "targets": [
-      "2a05:d016:35:4100::ec2"
+      "2a05:d016:1d5:8d00::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "Europe",
+      "region": "eu-north-1",
+      "city": "Stockholm",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2a05:d026:2f:8000::ec2"
     ],
     "labels": {
       "provider": "aws",
