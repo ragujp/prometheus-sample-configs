@@ -6427,7 +6427,21 @@
   },
   {
     "targets": [
-      "2600:1f18:2fe:900::ec2"
+      "2600:1f18:1a39:d800::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "US East",
+      "region": "us-east-1",
+      "city": "N. Virginia",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2600:1f28:56b::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -8009,7 +8023,21 @@
   },
   {
     "targets": [
-      "2600:1f1c:f64:3200::ec2"
+      "2600:1f1c:4bd:f000::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "US West",
+      "region": "us-west-1",
+      "city": "N. California",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2600:1f2c:26:8000::ec2"
     ],
     "labels": {
       "provider": "aws",
