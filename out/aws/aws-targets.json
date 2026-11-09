@@ -8429,7 +8429,21 @@
   },
   {
     "targets": [
-      "2600:1f14:84a:b000::ec2"
+      "2600:1f14:2d33:9300::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "US West",
+      "region": "us-west-2",
+      "city": "Oregon",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2600:1f24:348::ec2"
     ],
     "labels": {
       "provider": "aws",
