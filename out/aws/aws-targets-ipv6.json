@@ -715,7 +715,7 @@
   },
   {
     "targets": [
-      "2400:7fc0:8286:b300::ec2"
+      "2400:7fc0:8a6e:7c00::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -743,7 +743,21 @@
   },
   {
     "targets": [
-      "2404:c2c0:8d06:1f00::ec2"
+      "2400:7fc0:c008::ec2"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "China",
+      "region": "cn-north-1",
+      "city": "Beijing",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2404:c2c0:8f09:3100::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -758,6 +772,20 @@
   {
     "targets": [
       "2404:c2c0::3453:d600"
+    ],
+    "labels": {
+      "provider": "aws",
+      "area": "China",
+      "region": "cn-northwest-1",
+      "city": "Ningxia",
+      "country": "",
+      "ip_version": "6",
+      "source": "ec2-reachability"
+    }
+  },
+  {
+    "targets": [
+      "2404:c2c0:c00e::ec2"
     ],
     "labels": {
       "provider": "aws",
@@ -1583,7 +1611,7 @@
   },
   {
     "targets": [
-      "2600:1f1f:6ea:3d00::ec2"
+      "2600:1f1f:766:7700::ec2"
     ],
     "labels": {
       "provider": "aws",
