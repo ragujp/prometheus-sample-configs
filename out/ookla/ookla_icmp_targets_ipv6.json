@@ -99,20 +99,6 @@
   },
   {
     "targets": [
-      "2a12:f8c1:50:f::3"
-    ],
-    "labels": {
-      "ookla_id": "69575",
-      "city": "Tokyo",
-      "sponsor": "Nearoute Limited",
-      "cc": "JP",
-      "fqdn": "ty-bgp-speedtest.nearoute.io.prod.hosts.ooklaserver.net",
-      "url": "http://ty-bgp-speedtest.nearoute.io:8080/speedtest/upload.php",
-      "ip_family": "v6"
-    }
-  },
-  {
-    "targets": [
       "2a01:4020:40::509"
     ],
     "labels": {
@@ -164,20 +150,6 @@
       "cc": "JP",
       "fqdn": "tok1.host.speedtest.net.prod.hosts.ooklaserver.net",
       "url": "http://tok1.host.speedtest.net:8080/speedtest/upload.php",
-      "ip_family": "v6"
-    }
-  },
-  {
-    "targets": [
-      "2001:49f0:d0d9:3:b::4"
-    ],
-    "labels": {
-      "ookla_id": "28910",
-      "city": "Tokyo",
-      "sponsor": "fdcservers.net",
-      "cc": "JP",
-      "fqdn": "speedtest.hnd.fdcservers.net",
-      "url": "http://speedtest.hnd.fdcservers.net:8080/speedtest/upload.php",
       "ip_family": "v6"
     }
   }
