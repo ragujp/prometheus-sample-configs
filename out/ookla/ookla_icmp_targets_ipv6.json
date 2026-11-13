@@ -127,6 +127,20 @@
   },
   {
     "targets": [
+      "2400:d320:2258:24::1"
+    ],
+    "labels": {
+      "ookla_id": "69792",
+      "city": "Tokyo",
+      "sponsor": "SpaceCore.pro | Premium VPS Hosting",
+      "cc": "JP",
+      "fqdn": "tyo.st.spacecore.pro.prod.hosts.ooklaserver.net",
+      "url": "http://tyo.st.spacecore.pro:8080/speedtest/upload.php",
+      "ip_family": "v6"
+    }
+  },
+  {
+    "targets": [
       "2401:c080:1000:5db0:5400:6ff:fef5:fbd0"
     ],
     "labels": {
