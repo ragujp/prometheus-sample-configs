@@ -34,7 +34,7 @@
     "labels": {
       "ookla_id": "6087",
       "city": "Fussa-shi",
-      "sponsor": "Allied Telesis Capital Corporation",
+      "sponsor": "Warrior Communications",
       "cc": "JP",
       "fqdn": "sp1.atcc-gns.net.prod.hosts.ooklaserver.net",
       "url": "http://sp1.atcc-gns.net:8080/speedtest/upload.php",
@@ -48,7 +48,7 @@
     "labels": {
       "ookla_id": "6405",
       "city": "Misawa",
-      "sponsor": "Allied Telesis Capital Corporation",
+      "sponsor": "Warrior Communications",
       "cc": "JP",
       "fqdn": "sp3.atcc-gns.net.prod.hosts.ooklaserver.net",
       "url": "http://sp3.atcc-gns.net:8080/speedtest/upload.php",
@@ -76,7 +76,7 @@
     "labels": {
       "ookla_id": "31181",
       "city": "Okinawa",
-      "sponsor": "Allied Telesis Capital Corp.",
+      "sponsor": "Warrior Communications",
       "cc": "JP",
       "fqdn": "sp7.atcc-gns.net.prod.hosts.ooklaserver.net",
       "url": "http://sp7.atcc-gns.net:8080/speedtest/upload.php",
