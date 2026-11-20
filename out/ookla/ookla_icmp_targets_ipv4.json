@@ -141,20 +141,6 @@
   },
   {
     "targets": [
-      "93.118.41.137"
-    ],
-    "labels": {
-      "ookla_id": "49517",
-      "city": "Tokyo",
-      "sponsor": "OneProvider",
-      "cc": "JP",
-      "fqdn": "tok2.host.speedtest.net.prod.hosts.ooklaserver.net",
-      "url": "http://tok2.host.speedtest.net:8080/speedtest/upload.php",
-      "ip_family": "v4"
-    }
-  },
-  {
-    "targets": [
       "103.124.1.250"
     ],
     "labels": {

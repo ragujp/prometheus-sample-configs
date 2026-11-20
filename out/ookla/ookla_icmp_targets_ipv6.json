@@ -57,6 +57,20 @@
   },
   {
     "targets": [
+      "2001:f73:87a0:3600::98"
+    ],
+    "labels": {
+      "ookla_id": "34175",
+      "city": "Sapporo",
+      "sponsor": "OneProvider",
+      "cc": "JP",
+      "fqdn": "sap.host.speedtest.net.prod.hosts.ooklaserver.net",
+      "url": "http://sap.host.speedtest.net:8080/speedtest/upload.php",
+      "ip_family": "v6"
+    }
+  },
+  {
+    "targets": [
       "2400:d320:5028:1091::"
     ],
     "labels": {
@@ -94,20 +108,6 @@
       "cc": "JP",
       "fqdn": "ty-bgp-speedtest.nearoute.io.prod.hosts.ooklaserver.net",
       "url": "http://ty-bgp-speedtest.nearoute.io:8080/speedtest/upload.php",
-      "ip_family": "v6"
-    }
-  },
-  {
-    "targets": [
-      "2a01:4020:40::509"
-    ],
-    "labels": {
-      "ookla_id": "49517",
-      "city": "Tokyo",
-      "sponsor": "OneProvider",
-      "cc": "JP",
-      "fqdn": "tok2.host.speedtest.net.prod.hosts.ooklaserver.net",
-      "url": "http://tok2.host.speedtest.net:8080/speedtest/upload.php",
       "ip_family": "v6"
     }
   },
